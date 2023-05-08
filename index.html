@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>teste de digitação</title>
+  </head>
+  <body class="bg-sky-200 text-center w-[500px] m-auto">
+    <h1 class="text-4xl font-bold mb-10">teste de digitação</h1>
+    <p class="text-xl">
+      digite corretamente as frazes quando você terminar a frase incluindo o
+      ponto final sera mostrado o tempo
+    </p>
+    <div
+      id="texto"
+      class="
+        bg-sky-600
+        w-[400px]
+        p-2.5
+        rounded-lg
+        font-semibold
+        m-auto
+        my-5
+        text-center
+      "
+    ></div>
+    <textarea
+      id="entrada"
+      class="
+        outline-none
+        p-2
+        w-60
+        h-60
+        rounded-md
+        bg-sky-100
+        border-2 border-sky-600
+        focus:border-sky-950
+      "
+    ></textarea>
+    <div id="resultado"></div>
+    <button
+      id="reiniciar"
+      class="
+        bg-sky-600
+        w-20
+        p-2.5
+        rounded-lg
+        font-semibold
+        m-auto
+        my-5
+        text-center
+      "
+    >
+      reiniciar
+    </button>
+    <h2 class="text-xl my-2.5 font-semibold">selecione o nivel</h2>
+    <div>
+      <button
+        id="level1"
+        class="w-8 h-8 rounded-lg bg-sky-950 font-semibold text-sky-300"
+      >
+        1
+      </button>
+      <button
+        id="level2"
+        class="w-8 h-8 rounded-lg bg-sky-600 font-semibold text-sky-300"
+      >
+        2
+      </button>
+      <button
+        id="level3"
+        class="w-8 h-8 rounded-lg bg-sky-600 font-semibold text-sky-300"
+      >
+        3
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
